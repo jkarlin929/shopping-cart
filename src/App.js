@@ -4,6 +4,7 @@ import './App.css';
 import Title from './components/title';
 import Items from './components/items';
 import Checkout from './components/checkout';
+import Contact from './components/contact';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div>
         <Title />
         <Items />
+        <Contact />
         <Checkout />
       </div>
     );
