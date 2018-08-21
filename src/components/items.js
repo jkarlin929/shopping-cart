@@ -4,10 +4,15 @@ class Items extends Component {
   render() {
     return(
       <div>
-        <p>4 ITEMS</p>
-        <p>SIZE</p>
-        <p>QTY</p>
-        <p>PRICE</p>
+        <span>
+          <p>4 ITEMS</p>
+          <p>SIZE</p>
+          <p>QTY</p>
+          <p>PRICE</p>
+        </span>
+        <div>
+          <h1>Shirts</h1>
+        </div>
       </div>
     )
   }

@@ -4,7 +4,11 @@ class Contact extends Component {
   render() {
     return(
       <div>
-        <h1>Contact Info</h1>
+        <p>Need help of have questions?</p>
+        <p>Call Customer Service at 1-800-555-5555</p>
+        <a href="#">Chat with one of our stylists</a>
+        <br />
+        <a href="#">See return or exchange policy</a>
       </div>
     )
   }
