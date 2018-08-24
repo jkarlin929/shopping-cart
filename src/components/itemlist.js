@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 
-class Items extends Component {
+class ItemList extends Component {
+  constructor(props){
+    super(props);
+  }
+
   render() {
     return(
       <div>
         <span>
-          <p>4 ITEMS</p>
+          <p>{this.props.cartItemsLength} ITEMS</p>
           <p>SIZE</p>
           <p>QTY</p>
           <p>PRICE</p>
         </span>
         <div>
-          <h1>Shirts</h1>
+          {this.props.cartItems}
         </div>
       </div>
     )
   }
 }
 
-export default Items;
+export default ItemList;
