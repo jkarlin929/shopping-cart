@@ -9,7 +9,7 @@ class ItemList extends Component {
     return(
       <div>
         <span>
-          <p>{this.props.cartItemsLength} ITEMS</p>
+          <p>{this.props.cartItems} ITEMS</p>
           <p>SIZE</p>
           <p>QTY</p>
           <p>PRICE</p>
